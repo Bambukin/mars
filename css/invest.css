@@ -1,0 +1,52 @@
+.invest {
+  display: block;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9) 95%),
+  url("../img/invest.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll, fixed;
+  background-position: center;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.invest .column-1-2 {
+  position: relative;
+}
+
+.invest-text {
+  margin: auto;
+  position: absolute;
+  display: block;
+  padding: 10px 15px;
+  border: 1px solid dimgrey;
+  border-radius: 5px;
+  width: 70%;
+}
+
+.invest-left {
+  top: 30%;
+  left: 2em;
+}
+
+.invest-right {
+  top: 60%;
+  right: 2em;
+}
+
+@media (max-width: 640px) {
+  .invest .container .column-1-2 {
+    height: 50vh;
+    float: none;
+    width: auto;
+  }
+
+  .invest-left {
+    top: 40%;
+  }
+
+  .invest-right {
+    top: 20%;
+  }
+}

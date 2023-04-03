@@ -1,0 +1,37 @@
+.fact {
+  display: block;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9) 95%),
+  url("../img/space_rocket.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll, fixed;
+  background-position: center;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.fact-text {
+  position: absolute;
+  top: 40%;
+  right: 60%;
+  width: 35%;
+}
+
+@media (max-width: 960px) {
+  .fact-text {
+    top: 20%;
+  }
+}
+
+@media (max-width: 640px) {
+  .fact-text {
+    top: 20%;
+  }
+}
+
+@media (max-width: 480px) {
+  .fact-text {
+    top: 20%;
+  }
+}

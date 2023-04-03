@@ -1,0 +1,50 @@
+.feedbacks {
+  display: block;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9) 95%),
+  url("../img/feedbacks.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll, fixed;
+  background-position: center;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.feedbacks h3 {
+  text-align: right;
+}
+
+.feedbacks .column-1-3 {
+  position: relative;
+}
+
+.feedback {
+  display: block;
+  margin: auto;
+  width: 70%;
+  padding: 10px 15px;
+  border: 1px solid dimgrey;
+  border-radius: 5px;
+}
+
+.feedback-left {
+  position: absolute;
+  top: 40%;
+  left: 2em;
+  width: 60%;
+}
+
+.feedback-right {
+  position: absolute;
+  top: 40%;
+  right: 2em;
+  width: 60%;
+}
+
+
+@media (max-width: 640px) {
+  .feedbacks .column-1-3 {
+    height: 50vh;
+  }
+}
