@@ -10,3 +10,9 @@
   float: right;
   margin: 2em;
 }
+
+@media (max-width: 640px) {
+  .header-button {
+    margin: 30px 10px;
+  }
+}
