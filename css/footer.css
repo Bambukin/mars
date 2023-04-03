@@ -23,6 +23,11 @@
   font-weight: bold;
 }
 
+.header-nav-link:hover {
+  transition: all ease .3s;
+  color: lightgrey;
+}
+
 .social-icon {
   width: 3em;
   display: inline-block;
@@ -30,6 +35,11 @@
   background-color: rgb(125, 100, 65);
   padding: 5px;
   border-radius: 10px;
+}
+
+.social-icon:hover {
+  background-color: rgb(175, 150, 115);
+  transition: all ease .3s;
 }
 
 @media (max-width: 640px) {

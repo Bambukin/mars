@@ -28,3 +28,8 @@
   color: #fff;
   border: 1px solid darkgrey;
 }
+
+.button-mars:hover {
+  transition: all ease .3s;
+  border-color: black;
+}

@@ -14,7 +14,9 @@
   width: 4em;
   height: auto;
   margin-top: 1em;
-
+  padding: 1px;
+  border: 2px solid;
+  border-radius: 50%;
 }
 
 .intro-text {
