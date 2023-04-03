@@ -24,7 +24,7 @@
 }
 
 .social-icon {
-  width: 50px;
+  width: 3em;
   display: inline-block;
   margin: 0 1em;
   background-color: rgb(125, 100, 65);
@@ -39,6 +39,7 @@
     height: 90px;
   }
   .social-icon {
-    margin: 0 5px;
+    margin: 10px 5px;
+    width: 2em;
   }
 }
