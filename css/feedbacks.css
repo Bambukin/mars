@@ -46,4 +46,10 @@
   .feedbacks .column-1-3 {
     height: 50vh;
   }
+  .feedback-left {
+    top: 50%;
+  }
+  .feedback-right {
+    top: 30%;
+  }
 }
